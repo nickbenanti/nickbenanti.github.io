@@ -9,8 +9,11 @@ header{
     height: 200px;
     width: 100vw;
     box-sizing: border-box;
-    background-color:beige;
     border-bottom: 5px solid black;
+    background-image: url('/image/anubhav-rana-x2LStfRm7g0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     z-index: 1;
 }
 
@@ -41,8 +44,18 @@ section {
     width: 100%;
     min-height: 100%;
 }
-h2 {
+#title {
     font-size: 3em;
     font-weight: 500;
     text-align: center;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.desc{
+    font-size: 25px;
+    margin: 20px;
 }
